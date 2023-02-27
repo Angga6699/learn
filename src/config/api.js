@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create base URL API
 export const API = axios.create({
-  baseURL: process.env.REACT_APP_BASEURL,
+  baseURL: 'http://103.37.124.190:5000/api/v1'
 });
 
 // Set Authorization Token Header
