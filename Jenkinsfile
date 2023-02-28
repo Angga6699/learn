@@ -1,6 +1,6 @@
 def branch = "production"
 def remote_name = "origin"
-def directory = "~/dumbmerch-frontend/"
+def directory = "~/fe-dumbmerch/"
 def credential = 'appserver'
 def server = 'app@103.67.186.80'
 def image = 'angga6699/dumbmerch-frontend'
