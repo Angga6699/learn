@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  dumbmerch-frontend:
+    container_name: dumbmerch-frontend
+    stdin_open: true
+    image: angga6699/dumbmerch-frontend
+    ports:
+      - '3000:3000'
